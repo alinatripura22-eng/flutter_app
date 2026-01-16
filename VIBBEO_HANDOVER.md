@@ -85,8 +85,11 @@ To access: Render Dashboard → Your Service → Environment → MONGODB_URI
 
 ## CREDENTIALS SUMMARY
 - Render: alinatripura22@gmail.com
-- MongoDB: metube_user / eurquQHgXOLse0rm
+- MongoDB: [STORED IN RENDER ENVIRONMENT VARIABLES]
 - Firebase: chenal8-963c6
 - GitHub: alinatripura22-eng
 - AdMob: ca-app-pub-4519705537022498
+
+**Note:** Sensitive credentials are stored securely in Render environment variables.
+See SECURITY_GUIDE.md for details.
 

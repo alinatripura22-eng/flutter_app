@@ -41,7 +41,10 @@ To access: Render Dashboard → Your Service → Environment → MONGODB_URI
 - **Pull Zone:** vibbeo-videos.b-cdn.net
 - **Storage Zone:** vibbeo-storage (ID: 1331961)
 - **Status:** NOT configured in app (videos use Firebase Storage)
-- **FTP Password:** b2533e82-f18e-4660-88f895b76b39-de38-436a
+- **API Key:** [STORED SECURELY IN RENDER ENVIRONMENT]
+- **FTP Password:** [STORED SECURELY IN RENDER ENVIRONMENT]
+
+**Note:** BunnyCDN credentials are stored securely in Render environment variables.
 
 ## APP CONFIGURATION
 - **Package Name:** com.vibbeo.app

@@ -207,8 +207,9 @@ This creates a signed, production-ready APK.
 ### **BunnyCDN**:
 - Pull Zone: vibbeo-videos.b-cdn.net
 - Storage Zone: vibbeo-storage (ID: 1331961)
-- API Key: 8c820af3-4008-4b60-bbb6-8a09b02dd7da39f1f8e6-2c58-4221-b557-26738d573707
-- Storage Password: b2533e82-f18e-4660-88f895b76b39-de38-436a
+- API Key: [STORED SECURELY IN RENDER ENVIRONMENT]
+- Storage Password: [STORED SECURELY IN RENDER ENVIRONMENT]
+- Note: Credentials stored securely in Render environment variables
 
 ### **AdMob**:
 - Account: ca-app-pub-4519705537022498

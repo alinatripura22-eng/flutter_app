@@ -36,10 +36,10 @@
 
 ```
 Variable Name: BUNNY_API_KEY
-Value: 8c820af3-4008-4b60-bbb6-8a09b02dd7da39f1f8e6-2c58-4221-b557-26738d573707
+Value: [GET FROM BUNNYCDN DASHBOARD - Account → API]
 
 Variable Name: BUNNY_STORAGE_PASSWORD
-Value: b2533e82-f18e-4660-88f895b76b39-de38-436a
+Value: [GET FROM BUNNYCDN DASHBOARD - Storage → FTP & API Access]
 
 Variable Name: BUNNY_STORAGE_ZONE
 Value: vibbeo-storage

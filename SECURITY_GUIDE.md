@@ -1,14 +1,21 @@
 # 🔒 SECURITY GUIDE - KEEPING YOUR CREDENTIALS SAFE
 
-## ✅ SECURITY FIX APPLIED
+## ✅ SECURITY FIXES APPLIED
 
-All sensitive credentials have been removed from public documentation files.
+All sensitive credentials have been removed from public documentation files:
+- ✅ MongoDB credentials removed
+- ✅ BunnyCDN API key removed
+- ✅ BunnyCDN storage password removed
+- ✅ All secrets now reference environment variables
 
 ---
 
 ## 🔐 WHERE YOUR CREDENTIALS ARE STORED
 
 ### **MongoDB Credentials**
+**Location:** Render Environment Variables (Secure)
+
+### **BunnyCDN Credentials**
 **Location:** Render Environment Variables (Secure)
 
 **How to access:**

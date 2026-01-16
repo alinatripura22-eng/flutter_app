@@ -195,8 +195,9 @@ This creates a signed, production-ready APK.
 - Account: alinatripura22@gmail.com
 
 ### **MongoDB**:
-- Connection: mongodb+srv://vibbeo_user:eurquQHgXOLse0rm@cluster0.z46yrf8.mongodb.net/vibbeo
+- Connection: [STORED IN RENDER ENVIRONMENT VARIABLES]
 - Database: vibbeo
+- Note: Credentials stored securely in Render environment
 
 ### **Firebase**:
 - Project: chenal8-963c6

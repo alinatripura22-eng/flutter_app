@@ -8,11 +8,14 @@
 - **Service ID:** srv-d5j331v5r7bs73dpgc9g (or similar)
 
 ## MONGODB
-- **Connection String:** mongodb+srv://metube_user:eurquQHgXOLse0rm@cluster0.z46yrf8.mongodb.net/vibbeo?retryWrites=true&w=majority
-- **Username:** metube_user
-- **Password:** eurquQHgXOLse0rm
+- **Connection String:** [STORED IN RENDER ENVIRONMENT VARIABLES]
+- **Username:** [STORED SECURELY]
+- **Password:** [STORED SECURELY]
 - **Database:** vibbeo
 - **Cluster:** cluster0.z46yrf8.mongodb.net
+
+**Note:** MongoDB credentials are stored securely in Render environment variables.
+To access: Render Dashboard → Your Service → Environment → MONGODB_URI
 
 ## FIREBASE
 - **Project:** chenal8-963c6

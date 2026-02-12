@@ -18,9 +18,15 @@ workflows:
         script: | 
           echo "flutter.sdk=$HOME/programs/flutter" > "$CM_BUILD_DIR/android/local.properties"
       
+      - name: Clean Flutter cache
+        script: | 
+          flutter clean
+          rm -rf $HOME/.pub-cache/hosted/pub.dev/google_mobile_ads-3.1.0
+      
       - name: Get Flutter packages
         script: | 
-          flutter packages pub get
+          flutter pub get
+          flutter pub upgrade google_mobile_ads
       
       - name: Flutter analyze
         script: | 

@@ -1,45 +1,22 @@
 workflows:
   android-workflow:
     name: Android Workflow
-    max_build_duration: 120
+    max_build_duration: 60
     instance_type: linux_x2
     environment:
-      android_signing:
-        - keystore_reference
-      groups:
-        - google_play
-      vars:
-        PACKAGE_NAME: "com.vibbeo.app"
-        GOOGLE_PLAY_TRACK: internal
       flutter: stable
       java: 17
     scripts:
-      - name: Set up local.properties
-        script: | 
-          echo "flutter.sdk=$HOME/programs/flutter" > "$CM_BUILD_DIR/android/local.properties"
-      
-      - name: Clean Flutter cache
-        script: | 
-          flutter clean
-          rm -rf $HOME/.pub-cache/hosted/pub.dev/google_mobile_ads-3.1.0
-      
       - name: Get Flutter packages
         script: | 
           flutter pub get
-          flutter pub upgrade google_mobile_ads
       
-      - name: Flutter analyze
+      - name: Build Debug APK
         script: | 
-          flutter analyze || true
-      
-      - name: Build APK with Flutter
-        script: | 
-          flutter build apk --release --verbose
+          flutter build apk --debug
     
     artifacts:
       - build/app/outputs/flutter-apk/*.apk
-      - build/app/outputs/bundle/**/*.aab
-      - flutter_drive.log
     
     publishing:
       email:

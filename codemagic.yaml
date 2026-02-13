@@ -7,12 +7,10 @@ workflows:
       java: 17
     scripts:
       - name: Get Flutter packages
-        script: | 
-          flutter pub get
+        script: flutter pub get
       
       - name: Build Debug APK
-        script: | 
-          flutter build apk --debug
+        script: flutter build apk --debug
     
     artifacts:
       - build/app/outputs/flutter-apk/*.apk
